@@ -1,37 +1,37 @@
 #Creating a function using keyword def
-# def hello():
-#     print("Hello", sep=" ")
-# name=input("What's your name? ")
-# hello()
-# print(name)
+def hello():
+    print("Hello", sep=" ")
+name=input("What's your name? ")
+hello()
+print(name)
 
 
-# #to understand
-# print("what your favourite number?")
-# number= input()
-# print(f"Your favourite number is: {number}")
+#to understand
+print("what your favourite number?")
+number= input()
+print(f"Your favourite number is: {number}")
 
-# def hello(to):
-#     print(f"Hello, {to}!")
-# name=input("What's your name? ")
-# hello(name)    
+def hello(to):
+    print(f"Hello, {to}!")
+name=input("What's your name? ")
+hello(name)    
 
-# # define default value in arguments
-# def hello(to="world"):
-#     print(f"Hello, {to}!")
-# hello()    
-# name=input("What's your name? ")
-# hello(name)
+# define default value in arguments
+def hello(to="world"):
+    print(f"Hello, {to}!")
+hello()    
+name=input("What's your name? ")
+hello(name)
 
-# #using main() function to call the hello() function
-# def main():
-#     name=input("what's your name? ")
-#     hello(name)
+#using main() function to call the hello() function
+def main():
+    name=input("what's your name? ")
+    hello(name)
 
-# def hello(to):
-#     print(f"Hello, {to}!")    
+def hello(to):
+    print(f"Hello, {to}!")    
     
-# main()    
+main()    
 
 # return variables
 def main():
